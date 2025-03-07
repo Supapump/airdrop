@@ -1,6 +1,5 @@
 import AirdropWidget from "@/components/AirdropWidget";
 import { HeroAnimation } from "@/components/hero-animation"
-
 export default function Home() {
   return (
     <div className="relative min-h-screen font-[family-name:var(--font-geist-sans)]">
