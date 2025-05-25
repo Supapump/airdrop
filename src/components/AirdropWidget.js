@@ -4,7 +4,10 @@ import { useEffect } from "react";
 
 export default function AirdropWidget({
     name = "SUPA",
-    distributorId = "GMUKXbdR2AXbSxLnjZJH6nynT9RBNHZkgwCwxa8k5QCK",
+    distributorId = process.env.NEXT_PUBLIC_DISTRIBUTOR_ID,
+    // distributorId = "95A7ib6QnpMxnRGmLZy3bp4E5MzvtCUPn3UxJgM4VGQY",
+    // distributorId = "GMUKXbdR2AXbSxLnjZJH6nynT9RBNHZkgwCwxa8k5QCK",
+
     endpoint = "https://velvet-hw7q70-fast-mainnet.helius-rpc.com/",
     tokenDecimals = "6",
     tokenSymbol = "SUPA",
